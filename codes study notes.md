@@ -41,27 +41,27 @@ decode.py: decode the model.解码模型
 
 ### **data_generate_train_noisy.py**
 
+##### **寻找witness**
 
 
-~~~
-
-~~~
 
 
 
 ### **data_generate_train_synthetic.py**
 
+**语料库的插入，删除，替换 ——>  纠错**
 
 
-### **data_processing**.py
 
+### data_processing.py
 
+**数据的拆分，生成x, y, z**
 
 
 
 ### **data_tokenize.py**
 
-
+**数据单元化，标记化**
 
 
 
@@ -92,4 +92,12 @@ decode.py: decode the model.解码模型
 ### **utils.py**
 
 
+
+## **kenlm**
+
+- <https://zhuanlan.zhihu.com/p/39722203>
+
+### 介绍
+
+- 训练语言模型
 
