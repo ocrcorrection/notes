@@ -39,6 +39,8 @@ train.py: train the model.训练模型
 decode.py: decode the model.解码模型
 ~~~
 
+## **数据处理部分**
+
 ### **data_generate_train_noisy.py**
 
 ##### **寻找witness**
@@ -57,13 +59,38 @@ decode.py: decode the model.解码模型
 
 **数据的拆分，生成x, y, z**
 
+![ ](https://raw.githubusercontent.com/yaolinxia/img_resource/master/multi-input attention/微信截图_20190302105722.png)
+
+~~~python
+out_x = open(out_fn + '.x', 'w')                    # output file for OCR'd text
+out_y = open(out_fn + '.y', 'w')                    # output file for duplicated texts (witnesses)
+out_z = open(out_fn + '.z', 'w')                    # output file for manual transcription
+# output file for the information of OCR'd text, each line contains:
+# (group no., line no., file_id, begin index in file, end index in file, number of witnesses, number of manual transcriptions)
+out_x_info = open(out_fn + '.x.info', 'w')
+    
+# output file for the information of each witness, each line contains:
+# (line no, file_id, begin index in file)
+out_y_info = open(out_fn + '.y.info', 'w')
+
+# output file for the information of each manual transcription,
+# each line contains: (line no, file_id, begin index in file)
+out_z_info = open(out_fn + '.z.info', 'w')
+~~~
+
+
+
 
 
 ### **data_tokenize.py**
 
 **数据单元化，标记化**
 
+**创建了Vocabulary**
 
+## **模型部分**
+
+> 主要看train, train调用其他各个部分
 
 ### **decode.py**
 
@@ -87,7 +114,21 @@ decode.py: decode the model.解码模型
 
 ### train.py
 
+**inputs:**
 
+```
+训练数据
+x_train = pjoin(FLAGS.data_dir, 'train.ids.x')
+y_train = pjoin(FLAGS.data_dir, 'train.ids.y')
+验证数据
+x_dev = pjoin(FLAGS.data_dir, FLAGS.dev + '.ids.x')
+y_dev = pjoin(FLAGS.data_dir, FLAGS.dev + '.ids.y')
+词汇表
+vocab_path = pjoin(FLAGS.voc_dir, "vocab.dat")
+模型， epoch
+model, epoch = create_model(sess, vocab_size, False)
+
+```
 
 ### **utils.py**
 

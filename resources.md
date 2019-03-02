@@ -38,13 +38,13 @@ existing methods aim at generating consensus results by aligning multiple inputs
 - flat attention combination 可能会受输入序列的顺序影响
 - [x] Shaobin Xu and David A. Smith. 2017. **Retrieving and** 
   **combining repeated passages to improve OCR**. In
-  JCDL.(**重复文本使用**)(**投票**)杨
+  JCDL.(**重复文本使用**)(**投票**)【杨】
 
 #### Multi - attention
 
 - [x] Jindˇrich Libovick´y and Jindˇrich Helcl. 2017. **Attention**
   **strategies for multi-source sequence-to-sequence**
-  **learning**. In ACL. 姚
+  **learning**. In ACL. 【姚】
 - [ ] Barret Zoph and Kevin Knight. 2016. Multi-source
   neural translation. In NAACL.
 
@@ -52,7 +52,7 @@ existing methods aim at generating consensus results by aligning multiple inputs
 
 - [x] David A. Smith, Ryan Cordell, Elizabeth Maddock
   Dillon, Nick Stramp, and John Wilkerson. 2014.
-  **Detecting and modeling local text reuse**. In JCDL.(熊)
+  **Detecting and modeling local text reuse**. In JCDL.【熊】
 
 
 #### 其他
@@ -77,15 +77,17 @@ existing methods aim at generating consensus results by aligning multiple inputs
 #### **2018**
 
 - [x] [Jie Mei](https://dblp.uni-trier.de/pers/hd/m/Mei:Jie), [Aminul Islam](https://dblp.uni-trier.de/pers/hd/i/Islam:Aminul), [Abidalrahman Moh'd](https://dblp.uni-trier.de/pers/hd/m/Moh=d:Abidalrahman), [Yajing Wu](https://dblp.uni-trier.de/pers/hd/w/Wu:Yajing), [Evangelos E. Milios](https://dblp.uni-trier.de/pers/hd/m/Milios:Evangelos_E=):
-  Statistical learning for OCR error correction. [Inf. Process. Manage.54(6)](https://dblp.uni-trier.de/db/journals/ipm/ipm54.html#MeiIMWM18): 874-887 (2018)
+  Statistical learning for OCR error correction. [Inf. Process. Manage.54(6)](https://dblp.uni-trier.de/db/journals/ipm/ipm54.html#MeiIMWM18): 874-887 (2018)【姚】
 - [x] [Kareem Mokhtar](https://dblp.uni-trier.de/pers/hd/m/Mokhtar:Kareem), [Syed Saqib Bukhari](https://dblp.uni-trier.de/pers/hd/b/Bukhari:Syed_Saqib), [Andreas Dengel](https://dblp.uni-trier.de/pers/hd/d/Dengel:Andreas):
-  OCR Error Correction: State-of-the-Art vs an NMT-based Approach. [DAS2018](https://dblp.uni-trier.de/db/conf/das/das2018.html#MokhtarBD18): 429-434
+  OCR Error Correction: State-of-the-Art vs an NMT-based Approach. [DAS2018](https://dblp.uni-trier.de/db/conf/das/das2018.html#MokhtarBD18): 429-434【熊】
 - [x] [Ewerton Cappelatti](https://dblp.uni-trier.de/pers/hd/c/Cappelatti:Ewerton), [Regina de Oliveira Heidrich](https://dblp.uni-trier.de/pers/hd/h/Heidrich:Regina_de_Oliveira), [Ricardo Oliveira](https://dblp.uni-trier.de/pers/hd/o/Oliveira:Ricardo), [Cíntia Monticelli](https://dblp.uni-trier.de/pers/hd/m/Monticelli:C=iacute=ntia), [Ronaldo Rodrigues](https://dblp.uni-trier.de/pers/hd/r/Rodrigues:Ronaldo), [Rodrigo Goulart](https://dblp.uni-trier.de/pers/hd/g/Goulart:Rodrigo), [Eduardo Velho](https://dblp.uni-trier.de/pers/hd/v/Velho:Eduardo):
-  Post-correction of OCR Errors Using PyEnchant Spelling Suggestions Selected Through a Modified Needleman-Wunsch Algorithm. [HCI (28) 2018](https://dblp.uni-trier.de/db/conf/hci/hci2018-28.html#CappelattiHOMRG18): 3-
+  Post-correction of OCR Errors Using PyEnchant Spelling Suggestions Selected Through a Modified Needleman-Wunsch Algorithm. [HCI (28) 2018](https://dblp.uni-trier.de/db/conf/hci/hci2018-28.html#CappelattiHOMRG18): 3【杨】
 - [ ] [Stephen Mutuvi](https://dblp.uni-trier.de/pers/hd/m/Mutuvi:Stephen), [Antoine Doucet](https://dblp.uni-trier.de/pers/hd/d/Doucet:Antoine), [Moses Odeo](https://dblp.uni-trier.de/pers/hd/o/Odeo:Moses), [Adam Jatowt](https://dblp.uni-trier.de/pers/hd/j/Jatowt:Adam):
   Evaluating the Impact of OCR Errors on Topic Modeling. [ICADL 2018](https://dblp.uni-trier.de/db/conf/icadl/icadl2018.html#MutuviDOJ18): 3-14
 - [ ] [Vivi Nastase](https://dblp.uni-trier.de/pers/hd/n/Nastase:Vivi), [Julian Hitschler](https://dblp.uni-trier.de/pers/hd/h/Hitschler:Julian):
-  Correction of OCR Word Segmentation Errors in Articles from the ACL Collection through Neural Machine Translation Methods. [LREC 2018](https://dblp.uni-trier.de/db/conf/lrec/lrec2018.html#NastaseH18) **[no document]**
+  Correction of OCR Word Segmentation Errors in Articles from the ACL Collection through Neural Machine Translation Methods. [LREC 2018](https://dblp.uni-trier.de/db/conf/lrec/lrec2018.html#NastaseH18) 
+- [ ] [Iyad Abu Doush](https://dblp.uni-trier.de/pers/hd/d/Doush:Iyad_Abu), [Faisal Alkhateeb](https://dblp.uni-trier.de/pers/hd/a/Alkhateeb:Faisal), [Anwaar Hamdi Gharaibeh](https://dblp.uni-trier.de/pers/hd/g/Gharaibeh:Anwaar_Hamdi):
+  A novel Arabic OCR post-processing using rule-based and word context techniques. [IJDAR 21(1-2)](https://dblp.uni-trier.de/db/journals/ijdar/ijdar21.html#DoushAG18): 77-89 (2018)【C期刊】
 
 #### **2017**
 
