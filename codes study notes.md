@@ -137,6 +137,7 @@ model, epoch = create_model(sess, vocab_size, False)
 ## **kenlm**
 
 - <https://zhuanlan.zhihu.com/p/39722203>
+- 服务器上已安装，pip
 
 ### 介绍
 
