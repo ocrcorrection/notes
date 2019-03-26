@@ -1,7 +1,13 @@
 ## **数据**
 
 - [ ] **网上OCR相关数据集总结**<https://www.cnblogs.com/lillylin/p/6893500.html>
+
 - [ ] **论文数据集以及源码**<http://www.ccs.neu.edu/home/dongrui/ocr.html>
+
+- [ ] **中文数据集**
+
+  <https://github.com/HCIILAB/SCUT_FORU_DB_Release>
+
 
 ## **论文**
 
@@ -167,11 +173,7 @@ existing methods aim at generating consensus results by aligning multiple inputs
 #### **2015**
 
 - [ ] [Xiaoping Wang](https://dblp.uni-trier.de/pers/hd/w/Wang:Xiaoping), [Yanghua Xiao](https://dblp.uni-trier.de/pers/hd/x/Xiao:Yanghua), [Wei Wang](https://dblp.uni-trier.de/pers/hd/w/Wang_0009:Wei):
-  Web Knowledge Base Improved OCR Correction for Chinese Business Cards. [WAIM 2015](https://dblp.uni-trier.de/db/conf/waim/waim2015.html#WangXW15): 573-576
-
-
-
-
+  Web Knowledge Base Improved OCR Correction for Chinese Business Cards. [WAIM 2015](https://dblp.uni-trier.de/db/conf/waim/waim2015.html#WangXW15): 573-576 【**C会**】
 
 #### 2014
 
@@ -184,7 +186,7 @@ existing methods aim at generating consensus results by aligning multiple inputs
 - [ ] [Kazem Taghva](https://dblp.uni-trier.de/pers/hd/t/Taghva:Kazem), [Shivam Agarwal](https://dblp.uni-trier.de/pers/hd/a/Agarwal:Shivam):
   Utilizing web data in identification and correction of OCR errors. [DRR 2014](https://dblp.uni-trier.de/db/conf/drr/drr2014.html#TaghvaA14): 902109-902109-6
 - [ ] **[Jinying Chen](https://dblp.uni-trier.de/pers/hd/c/Chen:Jinying), [Yue Wu](https://dblp.uni-trier.de/pers/hd/w/Wu_0001:Yue), [Huaigu Cao](https://dblp.uni-trier.de/pers/hd/c/Cao:Huaigu), [Prem Natarajan](https://dblp.uni-trier.de/pers/hd/n/Natarajan:Prem):**
-  **Confusion Network Based Recurrent Neural Network Language Modeling for Chinese OCR Error Detection. [ICPR 2014](https://dblp.uni-trier.de/db/conf/icpr/icpr2014.html#ChenWCN14): 1266-1271**
+  **Confusion Network Based Recurrent Neural Network Language Modeling for Chinese OCR Error Detection. [ICPR 2014](https://dblp.uni-trier.de/db/conf/icpr/icpr2014.html#ChenWCN14): 1266-1271  ** 【C会】
 
 #### **2013**
 
