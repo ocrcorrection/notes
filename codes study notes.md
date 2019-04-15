@@ -127,7 +127,6 @@ y_dev = pjoin(FLAGS.data_dir, FLAGS.dev + '.ids.y')
 vocab_path = pjoin(FLAGS.voc_dir, "vocab.dat")
 模型， epoch
 model, epoch = create_model(sess, vocab_size, False)
-
 ```
 
 ### **utils.py**
