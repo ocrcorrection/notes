@@ -127,11 +127,15 @@ existing methods aim at generating consensus results by aligning multiple inputs
   > 数据集，来自ACL的论文
   >
   > 针对的问题是OCR识别后的分词错误
+  >
+  > 该篇文章，使用传统的机器翻译的模型，针对OCR识别过程中存在的虚假空白的问题，进行OCR识别结果的一些纠正。
 
 - [x] [Iyad Abu Doush](https://dblp.uni-trier.de/pers/hd/d/Doush:Iyad_Abu), [Faisal Alkhateeb](https://dblp.uni-trier.de/pers/hd/a/Alkhateeb:Faisal), [Anwaar Hamdi Gharaibeh](https://dblp.uni-trier.de/pers/hd/g/Gharaibeh:Anwaar_Hamdi):
   A novel Arabic OCR post-processing using rule-based and word context techniques. [IJDAR 21(1-2)](https://dblp.uni-trier.de/db/journals/ijdar/ijdar21.html#DoushAG18): 77-89 (2018)【C期刊】
 
   > 提出了一种新的对齐算法-快速自动文本对齐算法
+  >
+  > 处理的是阿拉伯语
 
 - [x] [Christian Reul](https://dblp.uni-trier.de/pers/hd/r/Reul:Christian), [Uwe Springmann](https://dblp.uni-trier.de/pers/hd/s/Springmann:Uwe), [Christoph Wick](https://dblp.uni-trier.de/pers/hd/w/Wick:Christoph), [Frank Puppe](https://dblp.uni-trier.de/pers/hd/p/Puppe:Frank):
   Improving OCR Accuracy on Early Printed Books by Utilizing Cross Fold Training and Voting. [DAS 2018](https://dblp.uni-trier.de/db/conf/das/das2018.html#ReulSWP18): 423-428
