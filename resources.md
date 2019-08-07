@@ -106,6 +106,10 @@ existing methods aim at generating consensus results by aligning multiple inputs
   > 首次使用复制机制的方法，用于罗马梵文的OCR后矫正中。
   >
   > 重复利用很多OCR识别系统的结果
+  
+  - Thi-Tuyet-Hai Nguyen, Mickaël Coustaty, Antoine Doucet, Adam Jatowt, Nhu-Van Nguyen:
+Adaptive Edit-Distance and Regression Approach for Post-OCR Text Correction. ICADL 2018: 278-289
+
 
 #### **2018**
 
