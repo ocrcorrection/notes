@@ -73,7 +73,7 @@ existing methods aim at generating consensus results by aligning multiple inputs
   > It generates an effective yet much smaller model, which is more practical for real-world application scenarios. 
 
 
-#### 其他
+#### 其他
 
 - [ ] Guillaume Chiron, Antoine Doucet, Mickael Coustaty,
   Muriel Visani, and Jean-Philippe Moreux. 2017.
